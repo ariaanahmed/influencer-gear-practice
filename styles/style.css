@@ -121,6 +121,9 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-top: 1px solid #E7ECF1;
+    border-bottom: 1px solid #E7ECF1;
+    padding: 10px 0;
 }
 
 
@@ -131,6 +134,10 @@ nav ul li a{
         flex-direction: column;
         padding: 10px 0px;
         text-align: center;
+    }
+
+    .logo{
+        font-size: 2rem;
     }
 
     nav ul {
@@ -147,7 +154,7 @@ nav ul li a{
     .brands{
         width: 100%;
         display: flex;
-        gap: 10px;
+        gap: 15px;
         align-items: center;
         flex-wrap: wrap;
         padding: 10px 15px;
