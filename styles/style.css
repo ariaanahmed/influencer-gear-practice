@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 15px;
+    margin-bottom: 60px;
 }
 
 .logo{
@@ -63,4 +64,111 @@ nav ul li a{
     font-weight: 600;
     font-size: 16px;
     
+}
+
+/* banner-designs */
+.banner-designs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.banner-content .banner-title{
+    font-size: 50px;
+    line-height: 1.3;
+    padding: 10px 15px;
+    font-size: 2.5rem;
+}
+
+.banner-content .banner-desccription{
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: left;
+    padding: 10px 15px;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.banner-content .btn{
+    background-color: #E02C6D;
+    text-transform: capitalize;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: poppins;
+    text-align: center;
+    cursor: pointer;
+}
+
+.banner-thumbnail{
+    border-radius: 50%;
+    border: 1px solid #EAE3F2;
+    padding: 20px;
+}
+
+.banner-thumbnail img{
+    width: 100%;
+}
+
+/* brands */
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .top-nav{
+        flex-direction: column;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        
+    }
+
+    .banner-designs{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        padding: 10px 15px;
+    }
+    .brands{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 15px;
+    }
+
+    .brands img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 800px) {
+    .top-nav{
+        flex-direction: column;
+    }
+
+    .brands{
+        width: 80%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 15px;
+    }
 }
