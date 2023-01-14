@@ -126,6 +126,32 @@ nav ul li a{
     padding: 10px 0;
 }
 
+/* popular-collection */
+
+.popular-collection{
+    margin-top: 50px;
+}
+
+.collection-title{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.all-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    padding: 15px 15px;
+    box-shadow: 6px -1px 32px -14px rgb(0 0 255 / 20%);
+    column-gap: 12%;
+    margin: 13px;
+    border-radius: 5px;
+}
 
 
 @media only screen and (max-width: 576px) {
